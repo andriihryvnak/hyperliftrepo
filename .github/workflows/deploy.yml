@@ -24,8 +24,8 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build -t your-dockerhub-username/my-demo-app .  # Білд Docker-образу
+          docker build -t impulsive1622/my-demo-app .  # Білд Docker-образу
 
       - name: Push Docker image to DockerHub
         run: |
-          docker push your-dockerhub-username/my-demo-app  # Пушимо образ на DockerHub
+          docker push impulsive1622/my-demo-app  # Пушимо образ на DockerHub
